@@ -1545,9 +1545,9 @@ ul {
 
 .info-block h3 {
   font-family: var(--ff-heading);
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: 500;
-  margin-bottom: 1rem;
+  margin-bottom: 0.6rem;
 }
 
 .info-block h3 em {
@@ -1559,8 +1559,8 @@ ul {
 
 .info-block p {
   opacity: 0.85;
-  margin-bottom: 1.5rem;
-  line-height: 1.6;
+  margin-bottom: 0.8rem;
+  line-height: 1.5;
 }
 
 .emergency-link {
