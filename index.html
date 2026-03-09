@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PawsForward | Animal Charity Organization</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Lora:ital,wght@0,400;0,500;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <!-- FontAwesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="logo">
+        <span class="logo-paw">&#10022;</span>
+        <span class="logo-text">PawsForward</span>
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#mission">Mission</a></li>
+        <li><a href="#programs">Programs</a></li>
+        <li><a href="#impact">Impact</a></li>
+        <li><a href="#gallery">Animals</a></li>
+        <li><a href="#donate" class="nav-cta">Donate Now</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content reveal">
+      <h1 class="hero-title">
+        Every Life<br /><em>Deserves</em><br />a Chance.
+      </h1>
+      <p class="hero-sub">
+        We rescue, rehabilitate, and rehome animals in need — giving them the safety, care, and love they deserve.
+      </p>
+      <div class="hero-actions">
+        <a href="#donate" class="btn-primary">Make a Donation</a>
+        <a href="#programs" class="btn-ghost">Our Programs</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- TICKER BANNER -->
+  <div class="mission-banner">
+    <div class="ticker-wrap">
+      <div class="ticker">
+        <span>Rescue &bull;</span><span>Rehabilitate &bull;</span>
+        <span>Rehome &bull;</span><span>Protect &bull;</span>
+        <span>Educate &bull;</span><span>Advocate &bull;</span>
+        <span>Rescue &bull;</span><span>Rehabilitate &bull;</span>
+        <span>Rehome &bull;</span><span>Protect &bull;</span>
+        <span>Educate &bull;</span><span>Advocate &bull;</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ABOUT / MISSION -->
+  <section class="about section" id="mission">
+    <div class="container about-grid">
+      <div class="about-image-wrap reveal-left">
+        <div class="about-img-block img-block-1">
+          <img src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=80" alt="Dog being rescued" />
+        </div>
+        <div class="about-img-block img-block-2">
+          <img src="https://images.unsplash.com/photo-1518882174711-1de40238921b?w=400&q=80" alt="Cat at shelter" />
+        </div>
+        <div class="floating-stat reveal-up">
+          <span class="stat-num">12K+</span>
+          <span class="stat-label">Animals Saved</span>
+        </div>
+      </div>
+      <div class="about-text reveal-right">
+        <span class="section-tag">Who We Are</span>
+        <h2 class="section-title">
+          Driven by Compassion.<br />Guided by Purpose.
+        </h2>
+        <p class="body-text">
+          PawsForward is a non-profit organisation dedicated to the welfare of animals across East Africa. Since 2015, we have operated rescue missions, wildlife rehabilitation programmes, and community education drives that put animal welfare at the heart of everything we do.
+        </p>
+        <p class="body-text">
+          Our team of dedicated veterinarians, field officers, and volunteers works around the clock to ensure no animal is left behind — from injured street dogs to displaced wildlife.
+        </p>
+        <a href="#programs" class="btn-primary">See Our Work</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROGRAMS -->
+  <section class="programs section" id="programs">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">What We Do</span>
+        <h2 class="section-title">Our Core Programs</h2>
+        <p class="section-subtitle">Three pillars that shape every action we take.</p>
+      </div>
+      <div class="programs-grid">
+
+        <div class="program-card reveal-up" style="--delay: 0s">
+          <div class="program-icon-wrap">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="32" cy="32" r="22" stroke="currentColor" stroke-width="2.5"/>
+              <path d="M22 34c0-5.5 4.5-10 10-10s10 4.5 10 10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              <circle cx="32" cy="28" r="4" stroke="currentColor" stroke-width="2.5"/>
+            </svg>
+          </div>
+          <h3 class="program-title">Animal Rescue</h3>
+          <p class="program-text">Our rapid-response rescue teams operate 24/7, reaching animals in distress — from road accident victims to those suffering neglect or abuse.</p>
+          <a href="#donate" class="program-link">Support Rescue &rarr;</a>
+        </div>
+
+        <div class="program-card reveal-up" style="--delay: 0.15s">
+          <div class="program-icon-wrap">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="12" y="20" width="40" height="30" rx="4" stroke="currentColor" stroke-width="2.5"/>
+              <path d="M22 20c0-5.5 4.5-10 10-10s10 4.5 10 10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              <path d="M32 32v8M28 36h8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3 class="program-title">Rehabilitation</h3>
+          <p class="program-text">Injured and traumatised animals receive comprehensive veterinary care, behavioural therapy, and a safe environment designed for recovery.</p>
+          <a href="#donate" class="program-link">Support Rehab &rarr;</a>
+        </div>
+
+        <div class="program-card reveal-up" style="--delay: 0.3s">
+          <div class="program-icon-wrap">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M16 50V26l16-14 16 14v24" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+              <rect x="24" y="34" width="16" height="16" rx="2" stroke="currentColor" stroke-width="2.5"/>
+            </svg>
+          </div>
+          <h3 class="program-title">Adoption &amp; Rehoming</h3>
+          <p class="program-text">We match rehabilitated animals with vetted, loving homes through our structured adoption programme, complete with post-adoption follow-up.</p>
+          <a href="#donate" class="program-link">Find a Pet &rarr;</a>
+        </div>
+
+        <div class="program-card reveal-up" style="--delay: 0.45s">
+          <div class="program-icon-wrap">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="32" cy="22" r="9" stroke="currentColor" stroke-width="2.5"/>
+              <path d="M16 50c0-8.8 7.2-16 16-16s16 7.2 16 16" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3 class="program-title">Community Education</h3>
+          <p class="program-text">We run school outreach drives, public workshops, and digital campaigns that build empathy and responsible animal ownership across communities.</p>
+          <a href="#donate" class="program-link">Learn More &rarr;</a>
+        </div>
+
+        <div class="program-card reveal-up" style="--delay: 0.6s">
+          <div class="program-icon-wrap">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M32 14c-4 0-8 4-8 4s-4-4-8-4c-4 0-8 4-8 12 0 10 24 22 24 22s24-12 24-22c0-8-4-12-8-12s-8 4-8 4-4-4-8-4z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3 class="program-title">Wildlife Protection</h3>
+          <p class="program-text">We partner with conservation bodies to protect endangered wildlife from poaching, habitat loss, and human-animal conflict across the region.</p>
+          <a href="#donate" class="program-link">Support Wildlife &rarr;</a>
+        </div>
+
+        <div class="program-card reveal-up" style="--delay: 0.75s">
+          <div class="program-icon-wrap">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 32h8l6-16 8 32 6-16h12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3 class="program-title">Veterinary Aid</h3>
+          <p class="program-text">Our mobile veterinary clinics provide free medical services including vaccinations, sterilisation, and emergency treatment in underserved areas.</p>
+          <a href="#donate" class="program-link">Support Vets &rarr;</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- IMPACT STATS -->
+  <section class="impact section" id="impact">
+    <div class="impact-bg"></div>
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag light">Our Impact</span>
+        <h2 class="section-title light">Numbers That Matter</h2>
+      </div>
+      <div class="stats-grid">
+        <div class="stat-card reveal-up" style="--delay: 0s">
+          <span class="stat-counter" data-target="12847">0</span><span class="stat-suffix">+</span>
+          <p class="stat-desc">Animals Rescued</p>
+        </div>
+        <div class="stat-card reveal-up" style="--delay: 0.15s">
+          <span class="stat-counter" data-target="8300">0</span><span class="stat-suffix">+</span>
+          <p class="stat-desc">Successful Adoptions</p>
+        </div>
+        <div class="stat-card reveal-up" style="--delay: 0.3s">
+          <span class="stat-counter" data-target="340">0</span><span class="stat-suffix"></span>
+          <p class="stat-desc">Active Volunteers</p>
+        </div>
+        <div class="stat-card reveal-up" style="--delay: 0.45s">
+          <span class="stat-counter" data-target="47">0</span><span class="stat-suffix"></span>
+          <p class="stat-desc">Partner Shelters</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ANIMALS GALLERY -->
+  <section class="gallery section" id="gallery">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Meet Them</span>
+        <h2 class="section-title">Animals Looking for Homes</h2>
+        <p class="section-subtitle">Each one has a story. Each one needs yours.</p>
+      </div>
+      <div class="gallery-filter reveal">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="dog">Dogs</button>
+        <button class="filter-btn" data-filter="cat">Cats</button>
+        <button class="filter-btn" data-filter="rabbit">Rabbits</button>
+        <button class="filter-btn" data-filter="bird">Birds</button>
+        <button class="filter-btn" data-filter="small-pet">Small Pets</button>
+        <button class="filter-btn" data-filter="wildlife">Wildlife</button>
+      </div>
+      <div class="gallery-grid" id="galleryGrid">
+
+        <div class="gallery-card reveal-up" data-category="dog" style="--delay: 0s">
+          <div class="gallery-img">
+            <img src="https://images.unsplash.com/photo-1621951714307-0f9b8070a9b0?auto=format&fit=crop&q=80&w=1000" alt="Rocky the dog" loading="lazy" />
+            <div class="gallery-badge">Available</div>
+          </div>
+          <div class="gallery-info">
+            <h4>Rocky</h4>
+            <span>German Shepherd Mix &bull; 4 yrs</span>
+            <a href="#donate" class="adopt-btn">Adopt Rocky</a>
+          </div>
+        </div>
+
+        <div class="gallery-card reveal-up" data-category="dog" style="--delay: 0.1s">
+          <div class="gallery-img">
+            <img src="https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?w=500&q=80" alt="Max the dog" loading="lazy" />
+            <div class="gallery-badge">Available</div>
+          </div>
+          <div class="gallery-info">
+            <h4>Max</h4>
+            <span>Labrador Mix &bull; 2 yrs</span>
+            <a href="#donate" class="adopt-btn">Adopt Max</a>
+          </div>
+        </div>
+
+        <div class="gallery-card reveal-up" data-category="cat" style="--delay: 0.2s">
+          <div class="gallery-img">
+            <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=500&q=80" alt="Luna the cat" loading="lazy" />
+            <div class="gallery-badge">Available</div>
+          </div>
+          <div class="gallery-info">
+            <h4>Luna</h4>
+            <span>Tabby &bull; 1 yr</span>
+            <a href="#donate" class="adopt-btn">Adopt Luna</a>
+          </div>
+        </div>
+
+        <div class="gallery-card reveal-up" data-category="dog" style="--delay: 0.3s">
+          <div class="gallery-img">
+            <img src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=500&q=80" alt="Buddy the dog" loading="lazy" />
+            <div class="gallery-badge">Available</div>
+          </div>
+          <div class="gallery-info">
+            <h4>Buddy</h4>
+            <span>Golden Retriever &bull; 3 yrs</span>
+            <a href="#donate" class="adopt-btn">Adopt Buddy</a>
+          </div>
+        </div>
+
+        <div class="gallery-card reveal-up" data-category="wildlife" style="--delay: 0.4s">
+          <div class="gallery-img">
+            <img src="https://images.unsplash.com/photo-1474511320723-9a56873867b5?w=500&q=80" alt="Wildlife rescue" loading="lazy" />
+            <div class="gallery-badge rehab">In Rehab</div>
+          </div>
+          <div class="gallery-info">
+            <h4>Simba</h4>
+            <span>African Serval &bull; Wildlife</span>
+            <a href="#donate" class="adopt-btn sponsor">Sponsor Care</a>
+          </div>
+        </div>
+
+        <div class="gallery-card reveal-up" data-category="cat" style="--delay: 0.5s">
+          <div class="gallery-img">
+            <img src="https://images.unsplash.com/photo-1596854407944-bf87f6fdd49e?w=500&q=80" alt="Mia the cat" loading="lazy" />
+            <div class="gallery-badge">Available</div>
+          </div>
+          <div class="gallery-info">
+            <h4>Mia</h4>
+            <span>Persian Mix &bull; 2 yrs</span>
+            <a href="#donate" class="adopt-btn">Adopt Mia</a>
+          </div>
+        </div>
+
+        <div class="gallery-card reveal-up" data-category="rabbit" style="--delay: 0s">
+          <div class="gallery-img">
+            <img src="https://images.unsplash.com/photo-1617398881039-4c977f633b0e?w=600&q=80" alt="Barnaby the rabbit" loading="lazy" />
+            <div class="gallery-badge">Available</div>
+          </div>
+          <div class="gallery-info">
+            <h4>Barnaby</h4>
+            <span>White Rabbit &bull; 1 yr</span>
+            <a href="#donate" class="adopt-btn">Adopt Barnaby</a>
+          </div>
+        </div>
+
+        <div class="gallery-card reveal-up" data-category="bird" style="--delay: 0.1s">
+          <div class="gallery-img">
+            <img src="https://images.unsplash.com/photo-1552728089-57bdde30beb3?w=600&q=80" alt="Pickles the parrot" loading="lazy" />
+            <div class="gallery-badge">Available</div>
+          </div>
+          <div class="gallery-info">
+            <h4>Pickles</h4>
+            <span>Green Parrot &bull; 3 yrs</span>
+            <a href="#donate" class="adopt-btn">Adopt Pickles</a>
+          </div>
+        </div>
+
+        <div class="gallery-card reveal-up" data-category="small-pet" style="--delay: 0.2s">
+          <div class="gallery-img">
+            <img src="https://images.unsplash.com/photo-1425082661705-1834bfd09dca?w=600&q=80" alt="Mochi the hamster" loading="lazy" />
+            <div class="gallery-badge">Available</div>
+          </div>
+          <div class="gallery-info">
+            <h4>Mochi</h4>
+            <span>Syrian Hamster &bull; 6 months</span>
+            <a href="#donate" class="adopt-btn">Adopt Mochi</a>
+          </div>
+        </div>
+
+        <div class="gallery-card reveal-up" data-category="small-pet" style="--delay: 0.3s">
+          <div class="gallery-img">
+            <img src="https://images.unsplash.com/photo-1612267168669-679c961c5b31?w=600&q=80" alt="The Trio" loading="lazy" />
+            <div class="gallery-badge">Available</div>
+          </div>
+          <div class="gallery-info">
+            <h4>The Trio</h4>
+            <span>Guinea Pigs &bull; 1 yr</span>
+            <a href="#donate" class="adopt-btn">Adopt The Trio</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Stories</span>
+        <h2 class="section-title">Lives Changed</h2>
+      </div>
+      <div class="testimonials-track" id="testimonialsTrack">
+        <div class="testimonial-card active">
+          <p class="testimonial-text">"Adopting Buddy through PawsForward was the best decision our family ever made. The process was thorough, supportive, and genuinely caring."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">AM</div>
+            <div>
+              <strong>Amara Mwangi</strong>
+              <span>Adopted a Labrador, 2023</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <p class="testimonial-text">"Volunteering here changed my perspective entirely. The team's dedication is remarkable. Every weekend feels like genuine purpose."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">DO</div>
+            <div>
+              <strong>David Otieno</strong>
+              <span>Volunteer, 2 years</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <p class="testimonial-text">"My monthly donation feels meaningful because I see exactly where it goes. The transparency and updates from PawsForward are outstanding."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">FK</div>
+            <div>
+              <strong>Fatuma Karimi</strong>
+              <span>Monthly Donor</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-dots" id="testimonialDots">
+        <button class="dot active" data-index="0"></button>
+        <button class="dot" data-index="1"></button>
+        <button class="dot" data-index="2"></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- DONATE -->
+  <section class="donate section" id="donate">
+    <div class="container donate-grid">
+      <div class="donate-text reveal-left">
+        <span class="section-tag">Take Action</span>
+        <h2 class="section-title">Your Donation<br />Saves Lives.</h2>
+        <p class="body-text">
+          Every contribution, regardless of size, directly funds rescue missions, veterinary care, and shelter operations. Choose a giving level or enter a custom amount.
+        </p>
+        <div class="impact-list">
+          <div class="impact-item">
+            <span class="impact-amount">KES 500</span>
+            <span class="impact-desc">feeds a rescued animal for one week</span>
+          </div>
+          <div class="impact-item">
+            <span class="impact-amount">KES 2,000</span>
+            <span class="impact-desc">covers emergency veterinary treatment</span>
+          </div>
+          <div class="impact-item">
+            <span class="impact-amount">KES 5,000</span>
+            <span class="impact-desc">sponsors a full rehabilitation programme</span>
+          </div>
+        </div>
+      </div>
+      <div class="donate-form-wrap reveal-right">
+        <div class="donate-form">
+          <h3>Make a Donation</h3>
+          <div class="amount-grid">
+            <button class="amount-btn active" data-amount="500">KES 500</button>
+            <button class="amount-btn" data-amount="1000">KES 1,000</button>
+            <button class="amount-btn" data-amount="2000">KES 2,000</button>
+            <button class="amount-btn" data-amount="5000">KES 5,000</button>
+          </div>
+          <div class="custom-amount-wrap">
+            <label for="customAmount">Or enter a custom amount</label>
+            <div class="input-prefix">
+              <span>KES</span>
+              <input type="number" id="customAmount" placeholder="0.00" min="1" />
+            </div>
+          </div>
+          <div class="frequency-toggle">
+            <button class="freq-btn active" data-freq="once">Give Once</button>
+            <button class="freq-btn" data-freq="monthly">Give Monthly</button>
+          </div>
+          <div class="donor-fields">
+            <input type="text" placeholder="Your Full Name" class="donor-input" />
+            <input type="email" placeholder="Email Address" class="donor-input" />
+          </div>
+          <button class="btn-donate" id="donateBtn">Donate Now &#9829;</button>
+          <p class="secure-note">&#128274; Secure &bull; 100% goes to animal welfare</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VOLUNTEER CTA -->
+  <section class="volunteer-cta section">
+    <div class="volunteer-bg"></div>
+    <div class="container volunteer-inner reveal">
+      <div class="volunteer-text">
+        <h2>Can't Donate? <em>Volunteer.</em></h2>
+        <p>Join our growing community of volunteers and contribute your time, skills, and energy to a cause that truly matters.</p>
+      </div>
+      <a href="#donate" class="btn-volunteer">Join as Volunteer</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#home" class="logo">
+          <span class="logo-paw">&#10022;</span>
+          <span class="logo-text">PawsForward</span>
+        </a>
+        <p>We rescue, rehabilitate, and rehome animals in need. Building a more compassionate world, one animal at a time.</p>
+        <div class="social-links">
+          <a href="#" aria-label="Facebook" class="social-icon"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="Twitter" class="social-icon"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Programs</h4>
+        <ul>
+          <li><a href="#programs">Animal Rescue</a></li>
+          <li><a href="#programs">Rehabilitation</a></li>
+          <li><a href="#programs">Adoption</a></li>
+          <li><a href="#programs">Wildlife Protection</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Get Involved</h4>
+        <ul>
+          <li><a href="#donate">Donate</a></li>
+          <li><a href="#donate">Volunteer</a></li>
+          <li><a href="#donate">Sponsor an Animal</a></li>
+          <li><a href="#donate">Corporate Partners</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:info@pawsforward.org">info@pawsforward.org</a></li>
+          <li><a href="tel:+254700000000">+254 700 000 000</a></li>
+          <li>KISUMU, KENYA</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 PawsForward Animal Charity. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- MODAL -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal-box">
+      <div class="modal-icon">&#10003;</div>
+      <h3>Thank You!</h3>
+      <p>Your generous donation has been received. You are making a real difference in the lives of animals who need it most.</p>
+      <button class="btn-primary" id="modalClose">Close</button>
+    </div>
+  </div>
+
+  <!-- BACK TO TOP -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">&uarr;</button>
+
+  <script src="main.js"></script>
+</body>
+</html>
