@@ -24,10 +24,10 @@
         <span></span><span></span><span></span>
       </button>
       <ul class="nav-links" id="navLinks">
-        <li><a href="#mission">Mission</a></li>
+        <li><a href="#home">Home</a></li>
         <li><a href="#programs">Programs</a></li>
-        <li><a href="#impact">Impact</a></li>
         <li><a href="#gallery">Animals</a></li>
+        <li><a href="#contact">Contact</a></li>
         <li><a href="#donate" class="nav-cta">Donate Now</a></li>
       </ul>
     </div>
@@ -472,6 +472,78 @@
     </div>
   </section>
 
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="container row">
+      <div class="contact-form-container reveal-up">
+        <h2 class="section-title">Get in <em>Touch</em></h2>
+        <p class="section-subtitle">Have a question about adoption or want to support us? We'd love to hear from you.</p>
+        
+        <form id="contactForm" class="contact-form">
+          <div class="form-group">
+            <input type="text" id="name" name="name" placeholder="Your Name" required />
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" name="email" placeholder="Email Address" required />
+          </div>
+          <div class="form-group">
+            <select id="subject" name="subject" required>
+              <option value="" disabled selected>Inquiry Type</option>
+              <option value="adoption">Adoption Inquiry</option>
+              <option value="volunteer">Volunteer Opportunity</option>
+              <option value="donation">Donation Question</option>
+              <option value="general">General Message</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit" class="btn-primary full-width">Send Message</button>
+        </form>
+      </div>
+
+      <div class="contact-info-container reveal-up" style="--delay: 0.1s">
+        <div class="info-block">
+          <h3>Emergency <em>Support</em></h3>
+          <p>For urgent reports of animals in distress, please call our 24/7 hotline directly.</p>
+          <a href="tel:+254700000000" class="emergency-link">
+            <i class="fa-solid fa-phone-volume"></i>
+            +254 700 000 000
+          </a>
+        </div>
+
+        <div class="info-block">
+          <h3>Visit <em>Us</em></h3>
+          <ul class="location-details" style="margin-bottom:1.2rem">
+            <li><i class="fa-solid fa-location-dot"></i> Nyalenda, Kisumu, Kenya</li>
+            <li><i class="fa-solid fa-clock"></i> Mon &ndash; Sat: 8:00 AM &ndash; 5:00 PM</li>
+          </ul>
+          <div class="map-embed">
+            <iframe
+              title="PawsForward Location – Nyalenda, Kisumu"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.8098073427786!2d34.74690777496658!3d-0.10730199990474483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182aa4cfdadf2db1%3A0x24d88e0f0d7c8e8!2sNyalenda%2C%20Kisumu%2C%20Kenya!5e0!3m2!1sen!2ske!4v1699999999999!5m2!1sen!2ske"
+              width="100%"
+              height="200"
+              style="border:0; border-radius:12px;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+
+        <div class="info-block">
+          <h3>Follow <em>Our Story</em></h3>
+          <div class="social-links-alt">
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- FOOTER -->
   <footer class="footer">
     <div class="container footer-grid">
@@ -500,6 +572,7 @@
         <h4>Get Involved</h4>
         <ul>
           <li><a href="#donate">Donate</a></li>
+          <li><a href="#contact">Contact Us</a></li>
           <li><a href="#donate">Volunteer</a></li>
           <li><a href="#donate">Sponsor an Animal</a></li>
           <li><a href="#donate">Corporate Partners</a></li>
@@ -510,7 +583,7 @@
         <ul>
           <li><a href="mailto:info@pawsforward.org">info@pawsforward.org</a></li>
           <li><a href="tel:+254700000000">+254 700 000 000</a></li>
-          <li>KISUMU, KENYA</li>
+          <li>Nyalenda, Kisumu, Kenya</li>
         </ul>
       </div>
     </div>

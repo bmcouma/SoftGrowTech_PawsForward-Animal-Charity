@@ -348,4 +348,39 @@
     });
   });
 
+
+  /* ---------- CONTACT FORM HANDLING ---------- */
+  const contactForm = document.getElementById("contactForm");
+  if (contactForm) {
+    contactForm.addEventListener("submit", function (e) {
+      e.preventDefault();
+      
+      const submitBtn = this.querySelector('button[type="submit"]');
+      const originalText = submitBtn.textContent;
+      
+      // Visual feedback
+      submitBtn.disabled = true;
+      submitBtn.textContent = "Sending...";
+      submitBtn.style.opacity = "0.7";
+
+      // Simulate network request
+      setTimeout(() => {
+        submitBtn.textContent = "Message Sent Successfully!";
+        submitBtn.style.backgroundColor = "#2c4a2e";
+        submitBtn.style.color = "#fff";
+        submitBtn.style.opacity = "1";
+        
+        // Reset form
+        this.reset();
+        
+        // Revert button after 3 seconds
+        setTimeout(() => {
+          submitBtn.disabled = false;
+          submitBtn.textContent = originalText;
+          submitBtn.style.backgroundColor = "";
+          submitBtn.style.color = "";
+        }, 3000);
+      }, 1500);
+    });
+  }
 })();
