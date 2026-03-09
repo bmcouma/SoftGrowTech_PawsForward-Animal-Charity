@@ -222,6 +222,12 @@ ul {
   color: var(--clr-forest);
 }
 
+.logo-img {
+  height: 32px;
+  width: auto;
+  border-radius: 4px;
+}
+
 .logo-paw {
   font-size: 1.1rem;
   color: var(--clr-amber);
